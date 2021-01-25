@@ -12,6 +12,6 @@ let server = http.createServer(function(req, res) {
     res.end('not found')
   }
 })
-server.listen(3111, () => {
-  console.log('已经启动在3111端口上')
+server.listen(3100, () => {
+  console.log('已经启动在3100端口上')
 })
